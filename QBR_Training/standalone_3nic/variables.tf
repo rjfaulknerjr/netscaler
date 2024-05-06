@@ -34,7 +34,7 @@ variable "adc_admin_password" {
 
 variable "ssh_public_key_file" {
   description = "Public key file for accessing the ubuntu bastion machine."
-  default     = "~/.ssh/id_ed25519.pub"
+  default     = "~/.ssh/id_rsa.pub"
 }
 
 variable "ubuntu_vm_size" {
